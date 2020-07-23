@@ -22,6 +22,7 @@ body{
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;
     position: relative;
+    user-select: none;
 }
 .clear{
     width : 30px;
@@ -29,6 +30,7 @@ body{
     position: absolute;
     right:20px;
     top: 20px;
+    user-select: none;
 }
 .clear i{
     font-size: 30px;
@@ -55,6 +57,7 @@ body{
     max-height:350px;
     background-color: #FFF;
     overflow: auto;
+    user-select: none;
 }
 .content::-webkit-scrollbar { 
     display: none; 
